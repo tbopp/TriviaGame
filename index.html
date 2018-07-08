@@ -15,7 +15,7 @@
 
 </head>
 <body>
-    
+    <!-- Container to hold all page contents (JumbboTron, quiz form, timmer, and buttons) -->
     <div class="container">
         <div class="row">
             <div class="col">
@@ -29,29 +29,31 @@
                 </div>
         </div>
 
+    <!-- Row to hold the quiz form -->
         <div class="row">
             <div class="col">
-                <div class="form">
+                <div id="quiz">
                     This is where the questions will appear upon start of game.
                 </div>
             </div>
         </div>
        
+    <!-- Row to hold the buttons-->
             <div class="row">
                     <div class="col">
                             <div class="buttons">
                                     <button type="button" class="btn btn-primary btn-lg" id="start">Start</button>
-                                    <button type="button" class="btn btn-secondary btn-lg" id="stop">Stop</button>
+                                    <button type="button" class="btn btn-secondary btn-lg" id="submit">Submit your answers</button>
                                 </div>
-        
-        
+                            </div>
+                        </div>
+
+    <!-- Row to hold the quiz results -->
+                <div class="row">
+                    <div class="col">
+                        <div id="results"></div>
                     </div>
                 </div>
-       
-
-       
-
-    <br>
 
     </div>
 
